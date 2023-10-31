@@ -607,6 +607,7 @@ transition: all 1s ease;}
     font-size: x-large;
     max-width: none;
     margin-bottom: 5em;
+    min-height: 90vh;
   }
   .first_section__logo{margin-bottom: 1em;}
   .btn--offer{height: 4.2em;}
