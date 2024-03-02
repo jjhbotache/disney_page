@@ -54,6 +54,11 @@ small{
   margin: .3em .2em;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 
 
 
@@ -185,8 +190,9 @@ transition: all 1s ease;}
   }
 }
 .arrow{
-  display: block;
-  width: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   height: 10px;
   border: none;
   color: white;
@@ -423,6 +429,7 @@ transition: all 1s ease;}
 }
 .footer__sm-text{
   font-size: xx-small;
+  text-decoration: none;
 }
 
 .details {
@@ -504,6 +511,12 @@ transition: all 1s ease;}
   }
 
   .btn--offer{height: 4em;}
+
+  .arrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
   /* plans */
   .plans{
